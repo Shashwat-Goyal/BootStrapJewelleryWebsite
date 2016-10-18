@@ -1,0 +1,142 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+   footer{
+      background-color: #444056;
+      color: white;
+      font-size: 11px;
+      text-align: center;
+      font-family: impact;
+      padding: 20px;
+
+   }
+
+   ul.unstyled {
+      list-style-type: none;
+      padding: 0;
+   }
+
+   .jumbotron{
+
+      margin-top: 20px;
+      font-family: impact;
+      color: #444056 ;
+   }
+
+   #main{
+      background-color: 
+   }
+
+/* --------------------------------------
+   Thumbnails
+   -------------------------------------- */
+
+   #EarringThumbnails{
+      text-align: center;
+   }
+
+    #NecklaceThumbnails, #RingThumbnails{
+      text-align: center;
+      margin-bottom: 10px;
+   }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{ width:200px;
+   }
+   .navbar-brand {
+   padding: 13px 15px;
+}
+
+
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+   margin-top: 60px;
+   }
+
+   #myCarousel .item { height: 400px; }
+   
+    #slide1 {  background: url(../../images/04_banner.jpg); top center no-repeat;
+      background-size: cover;
+     
+   } 
+   
+    #slide2 {
+      background: url(../../images/banner3.jpg); top center no-repeat;
+      background-size: cover;
+      
+   }
+
+   #slide3 { background: url(../../images/jasmin_bhasin_-_djewels.org_model_2_.jpg); top center no-repeat;
+      background-size: cover;
+      
+
+   }
+
+   
+
+  
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+/* --------------------------------------
+   Modal
+   -------------------------------------- */
+
+   #ContactUsModal .modal-body{
+      background: url(../../images/contact-background.jpg) top center no-repeat;
+      color: #3A2B7F;
+      
+   }
+
+   #AboutUsModal .modal-body{
+      background: url(../../images/stock-vector-marketing-concept-computer-keyboard-with-word-about-us-selected-focus-on-enter-button-background-313754471.jpg) top center;
+   
+      color:white;
+      
+   }
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
